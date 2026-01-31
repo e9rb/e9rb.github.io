@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>サンプルページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    button {
+      background: #4f46e5;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>サンプルWebページ</h1>
+    <p>index.html の参考用テンプレート</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>このページについて</h2>
+      <p>
+        このページは <strong>HTML / CSS / JavaScript</strong> の基本構成を
+        確認するためのサンプルです。
+      </p>
+    </section>
+
+    <section>
+      <h2>ボタンの例</h2>
+      <p>クリックするとメッセージが表示されます。</p>
+      <button onclick="showMessage()">クリックしてね</button>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Sample Site
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showMessage() {
+      alert("ボタンがクリックされました！");
+    }
+  </script>
+
+</body>
+</html>
